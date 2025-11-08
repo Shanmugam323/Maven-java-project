@@ -1,4 +1,4 @@
-package com.bt.contoller;
+
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,7 +20,7 @@ public class SampleController {
             throws JSONException {
 System.out.println(":::MEthod calling:::");
         JSONObject js = new JSONObject();
-        js.put("Name", "pravee");
+        js.put("Name", "Shanmugam");
         js.put("roger tech","Devops");
 
         return js.toString();
